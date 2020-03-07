@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c8eda751dd.js" crossorigin="anonymous"></script>
+  <title>Shopping List</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card m-2">
+      <div class="card-body item-card">
+        <h4 class="card-title">Shopping List</h4>
+      <form id="item-form">
+        <div class="form-group">
+          <label for="item">Add Item</label>
+          <input type="text" name="item" id="item" class="form-control">
+        </div>
+        <input type="submit" value="Add Item" class="btn btn-primary">
+      </form>
+      </div>
+    </div>
+    <div class="card m-2">
+      <div class="card-body filter-card">
+        <h5 class="card-btitle text-muted">Filter Items</h5>
+        <label for="filter">Filter Items</label>
+        <input type="text" name="filter" id="filter" class="form-control">
+      </div>
+    </div>
+    <div class="card m-2">
+      <div class="card-body collection-card">
+        <h5 class="card-title">Items to Get</h5>
+        <ul class="collection list-group">
+
+        </ul>
+        <hr>
+        <a href="" class="clear-tasks btn btn-dark">Clear Items</a>
+      </div>
+    </div>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
